@@ -5,7 +5,7 @@
 // Ausgabe der errechneten Einkommensteuer
 const output = (est) => {
 	const result = document.getElementById('einkommenSteuer');
-	resultLabel.innerHTML = est + ',00 Euro';
+	result.innerHTML = est + ',00 Euro';
 };
 
 // Einkommensteuer-Berechnung 2019
