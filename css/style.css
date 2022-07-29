@@ -1,0 +1,34 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+}
+
+h1 {
+	font-size: 1.5em;
+	padding-bottom: 10px;
+	width: 447px;
+}
+
+.btn-primary {
+	width: 100%;
+}
+
+main {
+	border: 2px solid lightgray;
+	border-radius: 3px;
+	padding: 40px;
+	width: 592px;
+	margin: auto;
+	margin-top: 11%;
+}
+
+#einkommenSteuerLabel,
+#einkommenSteuer,
+#einkommenSteuerEuro {
+	border-color: red;
+}
