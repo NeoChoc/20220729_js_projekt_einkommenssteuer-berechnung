@@ -6,6 +6,7 @@
 
 body {
 	height: 100%;
+	margin: auto;
 }
 
 h1 {
@@ -22,7 +23,7 @@ main {
 	border: 2px solid lightgray;
 	border-radius: 3px;
 	padding: 40px;
-	width: 592px;
+	max-width: 592px;
 	margin: auto;
 	margin-top: 11%;
 }
@@ -31,4 +32,16 @@ main {
 #einkommenSteuer,
 #einkommenSteuerEuro {
 	border-color: red;
+}
+
+@media screen and(max: 760px) {
+	h1 {
+		width: auto;
+	}
+	main {
+		padding: 50px;
+		margin: auto;
+		margin-top: 11%;
+		width: auto;
+	}
 }
